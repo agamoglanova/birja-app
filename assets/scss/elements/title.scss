@@ -1,0 +1,80 @@
+.main_techno_title {
+  display: flex;
+  align-items: center;
+}
+.bigtitle-style {
+  margin-bottom: 50px;
+  display: flex;
+  &_mrg {
+    margin-right: 20px;
+  }
+  a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 55px;
+    color: $main-color;
+  }
+}
+.title_btn {
+  width: 50px;
+  height: 50px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.pu-titleTitle {
+  .pu-skeleton {
+    width: 194px;
+    height: 55px;
+    background-color: $dark-gray;
+  }
+}
+
+.pu-titleButton {
+  width: 100%;
+  height: 100%;
+  .pu-skeleton {
+    display: block;
+    background-color: $dark-gray;
+  }
+}
+
+@media (max-width: 1439px) {
+  .bigtitle-style {
+    margin-bottom: 40px;
+    &_mrg {
+      margin-right: 16px;
+    }
+    a {
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 49px;
+    }
+  }
+  .title_btn {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 959px) {
+  .bigtitle-style {
+    margin-bottom: 30px;
+    &_mrg {
+      margin-right: 16px;
+    }
+    a {
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 34px;
+    }
+  }
+  .title_btn {
+    width: 36px;
+    height: 36px;
+  }
+}

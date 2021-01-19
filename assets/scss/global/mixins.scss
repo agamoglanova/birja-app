@@ -1,0 +1,39 @@
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@mixin container-1440 {
+  max-width: 1440px;
+  margin: auto;
+}
+
+@mixin font-stocks_title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin roboto-normal {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@mixin montserrat-600 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+}

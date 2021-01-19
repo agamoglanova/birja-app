@@ -1,0 +1,144 @@
+.main_opinions_wrapper_bottom {
+  display: flex;
+}
+.main_opinions_card {
+  padding: 42px 70px 42px 20px;
+  background-color: $color-lime;
+  width: 100%;
+  height: 200px;
+}
+
+.main_opinions_wrapper_bottom_img {
+  width: 433px;
+  height: 200px;
+}
+
+.pu-wrapperbotimg {
+  .pu-skeleton {
+    background-color: $dark-gray;
+    width: 433px;
+    height: 200px;
+    border-radius: 0;
+    display: block;
+  }
+}
+.wrapper-bottom_margin {
+  .main_opinions_card {
+    height: 175px;
+  }
+  .main_opinions_wrapper_bottom_img {
+    height: 175px;
+  }
+  .main_opinions_card {
+    padding: 30px 70px 17px 20px;
+  }
+}
+.wrapperbot-small {
+  .small-item {
+    width: 100%;
+  }
+}
+.pu-wrapperbotimg {
+  height: 200px;
+  
+  .pu-skeleton {
+    height: 200px;
+  }
+}
+.pu-wrapperbot-color {
+  background-color: $very-light-gray;
+}
+.wrapper-bottom_margin {
+  height: 175px;
+
+  .main_opinions_card {
+    height: 175px;
+  }
+}
+@media (max-width: 1439px) {
+  .main_opinions_card {
+    height: 170px;
+    padding: 30px 19px 22px 20px;
+  }
+  .main_opinions_wrapper_bottom_img {
+    width: 393px;
+    height: 170px;
+  }
+  .wrapper-bottom_margin {
+    height: 170px;
+  }
+  .pu-wrapperbotimg {
+    height: 170px;
+    
+    .pu-skeleton {
+      background-color: $dark-gray;
+      width: 393px;
+      height: 170px;
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .pu-wrapperbotimg {
+    width: 363px;
+    .pu-skeleton {
+      width: 363px;
+    }
+  }
+
+  .wrapper-bottom_margin {
+    .main_opinions_card {
+      padding: 20px 15px;
+      height: 170px;
+    }
+    .main_opinions_wrapper_bottom {
+      &_img {
+        width: 363px;
+        height: 170px;
+      }
+    }
+  }
+}
+
+@media (max-width: 959px) {
+  .wrapper-bottom_margin {
+    height: unset;
+  }
+
+  .pu-wrapperbotimg {
+    width: calc(50% - 5px);
+    height: 250px;
+    .pu-skeleton {
+      width: 100%;
+      height: 250px;
+    }
+    .pu-wrapperbotimg {
+      .pu-skeleton {
+        height: 250px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .main_opinions {
+    &_wrapper_bottom {
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+
+      &_img {
+        width: 100%;
+        height: 320px;
+      }
+    }
+  }
+
+  .pu-wrapperbotimg {
+    width: 100%;
+
+    .pu-skeleton {
+      width: 100%;
+    }
+  }
+}

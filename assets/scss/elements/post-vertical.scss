@@ -1,0 +1,48 @@
+@import "~/assets/scss/global/colors.scss";
+@import "~/assets/scss/global/mixins.scss";
+.post-vertical {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #2d354b;
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+  &__author {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+    &__left-block {
+      display: flex;
+      align-items: center;
+      &__icon {
+        width: 22px;
+        height: 22px;
+      }
+      &__name {
+        font-weight: 800;
+        font-size: 14px;
+        margin-left: 10px;
+      }
+    }
+    &__published {
+      font-size: 14px;
+      color: #bbbbbb;
+      margin-left: 20%;
+    }
+  }
+  &__title {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+  &__category {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 26px;
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "birja",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "export": "nuxt export",
+    "serve": "nuxt serve"
+  },
+  "engines": {
+    "node": "v13.12.0"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.12.3",
+    "@nuxtjs/toast": "^3.3.1",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "nuxt": "^2.14.9",
+    "nuxt-vuex-localstorage": "^1.2.7",
+    "nuxt-webfontloader": "^1.1.0",
+    "swiper": "^5.4.5",
+    "v-click-outside": "^3.1.2",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-loading-skeleton": "^1.1.9",
+    "vue-moment": "^4.1.0",
+    "vue-simple-calendar": "^4.4.0",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "vuex": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.14.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-vue": "^7.2.0",
+    "node-sass": "^4.14.1",
+    "nuxt-purgecss": "^1.0.0",
+    "sass-loader": "^9.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-empty": [
+        2,
+        {
+          "allowEmptyCatch": true
+        }
+      ]
+    }
+  }
+}
